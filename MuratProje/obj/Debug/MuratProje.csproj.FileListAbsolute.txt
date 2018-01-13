@@ -1,0 +1,11 @@
+c:\users\tugayelif\source\repos\MuratProje\bin\Debug\MuratProje.dll.config
+c:\users\tugayelif\source\repos\MuratProje\bin\Debug\MuratProje.dll
+c:\users\tugayelif\source\repos\MuratProje\bin\Debug\MuratProje.pdb
+c:\users\tugayelif\source\repos\MuratProje\bin\Debug\EntityFramework.dll
+c:\users\tugayelif\source\repos\MuratProje\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\tugayelif\source\repos\MuratProje\bin\Debug\EntityFramework.xml
+c:\users\tugayelif\source\repos\MuratProje\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\tugayelif\source\repos\MuratProje\obj\Debug\MuratProje.csprojResolveAssemblyReference.cache
+c:\users\tugayelif\source\repos\MuratProje\obj\Debug\MuratProje.csproj.CoreCompileInputs.cache
+c:\users\tugayelif\source\repos\MuratProje\obj\Debug\MuratProje.dll
+c:\users\tugayelif\source\repos\MuratProje\obj\Debug\MuratProje.pdb

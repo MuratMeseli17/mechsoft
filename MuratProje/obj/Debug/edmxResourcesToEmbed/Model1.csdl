@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="kayitModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Form">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Toplanti_Konusu" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Başlama_Saati" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Bitiş_Saati" Type="String" MaxLength="10" FixedLength="true" Unicode="true" />
+    <Property Name="Katılımcılar" Type="String" MaxLength="400" FixedLength="true" Unicode="true" />
+  </EntityType>
+  <EntityContainer Name="kayitEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Form" EntityType="Self.Form" />
+  </EntityContainer>
+</Schema>

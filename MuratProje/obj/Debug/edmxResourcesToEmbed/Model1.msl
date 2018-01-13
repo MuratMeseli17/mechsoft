@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="kayitModelStoreContainer" CdmEntityContainer="kayitEntities">
+    <EntitySetMapping Name="Form">
+      <EntityTypeMapping TypeName="kayitModel.Form">
+        <MappingFragment StoreEntitySet="Form">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="Toplanti_Konusu" ColumnName="Toplanti Konusu" />
+          <ScalarProperty Name="Başlama_Saati" ColumnName="Başlama Saati" />
+          <ScalarProperty Name="Bitiş_Saati" ColumnName="Bitiş Saati" />
+          <ScalarProperty Name="Katılımcılar" ColumnName="Katılımcılar" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
